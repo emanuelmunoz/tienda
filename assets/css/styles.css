@@ -1,0 +1,179 @@
+/* main styles */
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+
+/* header */
+
+
+
+header {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right-items {
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-right-items form {
+    position: relative;
+}
+.header-right-items input {
+    font-size: 0.6rem;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 25px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+}
+
+.header-right-items form img {
+    position: absolute;
+    top: 2px;
+    left: 1px;
+}
+
+.header-right-items a {
+    padding-top: 2px;
+}
+
+
+
+/* header - main menu */
+
+
+
+.main-menu-container{
+    width: 220px;
+    position: relative;
+}
+.main-menu-container ul {
+    padding: 0px;
+}
+
+.main-menu-selector {
+    display: flex;
+    justify-content: left;
+    font-size: 0.7rem;
+    padding: 0rem 0.5rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 0px;
+}
+
+.main-menu-selector li:first-child {
+    padding-right: 6px;
+    border-right: 1px solid darkgray;
+}
+
+.main-menu-selector li:last-child {
+    padding-left: 6px;
+}
+
+.main-menu-list {
+    position: absolute;
+    top: 150%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-menu-list li {
+    font-size: 1.1rem;
+    padding: 0.3rem 0rem;
+}
+
+
+
+/* main content styles */
+
+main {
+    font-size: 0.8rem;
+}
+.column-3 {
+    width: 300px;
+}
+
+.main-page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-page-header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.breadcrumbs li a {
+    color: darkgray;
+}
+.breadcrumbs li:last-child a {
+    color: black    ;
+}
+
+.breadcrumbs li+li:before {
+    color: darkgray;
+    content: ">";
+    padding-inline: 6px;
+}
+
+.main-page-options {
+    font-size: 0.7rem;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+
+.main-page-options div {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.main-page-options div h4 {
+    font-size: 0.6rem;
+    padding-right: 6px;
+}
+
+.main-page-options div button {
+    border: none;
+    background-color: transparent;
+    font-size: 0.6rem;
+    padding-inline: 6px;
+}
+
+.main-page-options div:first-child {
+    border-right: 1px solid darkgray;
+}
+
+.main-page-options div:last-child {
+    border-left: 1px solid darkgray;
+}
+
+
+/* product gallery */
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
