@@ -59,9 +59,7 @@ header {
 }
 
 
-
 /* header - main menu */
-
 
 
 .main-menu-container{
@@ -172,8 +170,32 @@ main {
 
 /* product gallery */
 
+.product-gallery-wrapper {
+    justify-content: space-around;
+    padding-inline: 50px;
+    
+}
+
 .product-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:left
+}
+
+    .product {
+    padding-inline: 10px;
+    padding-block: 20px;
+}
+
+.product-name {
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 10px;
+}
+
+.product-price {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.7rem;
+    padding-top: 5px;
 }
