@@ -173,7 +173,7 @@ main {
 .product-gallery-wrapper {
     justify-content: space-around;
     padding-inline: 50px;
-    
+    padding-bottom: 60px;
 }
 
 .product-gallery {
@@ -190,7 +190,7 @@ main {
 .product-name {
     text-align: center;
     font-size: 0.7rem;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .product-price {
@@ -198,4 +198,136 @@ main {
     font-weight: bold;
     font-size: 0.7rem;
     padding-top: 5px;
+}
+
+/* newsletter */
+
+.newsletter {
+    border-top: 1px solid whitesmoke;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.newsletter h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.newsletter h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 5px;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-form input {
+    width: 500px;
+    text-align: center;
+    font-size: 0.7rem;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+/* contacts */
+
+.section-contacts h3 {
+    padding-top: 25px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contacts ul {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts ul li {
+    font-size: 0.7rem;
+    padding-inline: 10px;
+}
+
+.contacts ul li:nth-child(2) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.contacts ul li:first-child a img {
+    padding-right: 5px;
+}
+.contacts ul li:first-child a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contacts p {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 0.7rem;
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+}
+
+    /* footer */
+
+.footer {
+    font-size: 0.7rem;
+    padding-top: 80px;
+    padding-inline: 0px;
+}
+
+/* footer upper */
+
+.footer-upper {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-upper div h4 {
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.footer-upper div ul li {
+    padding-block: 5px;
+}
+
+/* footer bottom */
+
+.footer-bottom {
+    border-top: 1px solid whitesmoke;
+}
+
+.footer-bottom ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-bottom ul li {
+    width: 25%;
+    text-align: center;
+    padding-block: 20px;
+}
+
+
+.footer-bottom ul li:last-child {
+    border-left: 1px solid whitesmoke;
+}
+
+.footer-bottom ul li:first-child {
+    border-right: 1px solid whitesmoke;
 }
