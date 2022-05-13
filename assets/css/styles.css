@@ -26,6 +26,7 @@ header {
     height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-inline: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -106,6 +107,7 @@ header {
 
 main {
     font-size: 0.8rem;
+    padding-inline: 20px;
 }
 .column-3 {
     width: 300px;
@@ -172,7 +174,7 @@ main {
 
 .product-gallery-wrapper {
     justify-content: space-around;
-    padding-inline: 50px;
+    padding-inline: 30px;
     padding-bottom: 60px;
 }
 
