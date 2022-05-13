@@ -336,7 +336,26 @@ main {
     padding-block: 5px;
 }
 
+.footer-social-list ul li a {
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+}
+.footer-social-list ul li a div {
+    padding: 0px 3px;
+}
+    
+.footer-payment-list ul li a {
+        display: flex;
+        align-items: center;
+} 
+.footer-payment-list ul li a div {
+        padding: 0px 3px;
+}
+
+
 /* footer bottom */
+
 
 .footer-bottom {
     border-top: 1px solid whitesmoke;
