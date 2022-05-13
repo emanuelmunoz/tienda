@@ -373,6 +373,16 @@ main {
     padding-block: 20px;
 }
 
+.footer-bottom ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom ul li a div {
+    text-align: center;
+    padding: 0px 3px;
+}
 
 .footer-bottom ul li:last-child {
     border-left: 1px solid whitesmoke;
